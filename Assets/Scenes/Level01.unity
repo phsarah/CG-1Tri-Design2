@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 519420033}
   - component: {fileID: 519420035}
   - component: {fileID: 519420034}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -507,7 +507,7 @@ GameObject:
   - component: {fileID: 690756169}
   - component: {fileID: 690756171}
   - component: {fileID: 690756170}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Platforms-Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1850,7 +1850,7 @@ GameObject:
   - component: {fileID: 844385172}
   - component: {fileID: 844385171}
   - component: {fileID: 844385170}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bird
   m_TagString: Untagged
   m_Icon: {fileID: 0}

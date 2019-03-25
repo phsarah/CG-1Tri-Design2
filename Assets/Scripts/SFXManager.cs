@@ -15,6 +15,8 @@ public class SFXManager : MonoBehaviour
         
     }
     public void ShowCoinParticles(GameObject obj){
-        Instantiate(coinParticles, obj.transform.position, Quaternion.identity);
+        GameObject particles = Instantiate(coinParticles, obj.transform.position, Quaternion.identity);
+        GameObject tape = GameObject.Find("Tape");
+        particles.transform.SetParent(tape.transform);
     }
 }

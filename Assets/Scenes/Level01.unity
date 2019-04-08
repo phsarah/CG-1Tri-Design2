@@ -238,6 +238,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8784907271817023225}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &141648823 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1201312117829430059, guid: 8c3b39c47935ac745911ffde83122530,
+    type: 3}
+  m_PrefabInstance: {fileID: 4531901423963235793}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &153034984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4013,6 +4019,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1409730772}
   - component: {fileID: 1409730771}
+  - component: {fileID: 1409730774}
+  - component: {fileID: 1409730773}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -4054,6 +4062,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1409730773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409730770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4cb3998409e9514fb8ce5b1689063be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSFX:
+    coinPickup: {fileID: 8300000, guid: eaaa14ce55aa24642aa07da66d7eda18, type: 3}
+  audioPlayer:
+    jump: {fileID: 8300000, guid: b918b65b141457a4db0ccf8cc103583a, type: 3}
+--- !u!114 &1409730774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409730770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9f977bffbc54e449de02cb80fc532b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinParticles: {fileID: 141648823}
 --- !u!1001 &1429299071
 PrefabInstance:
   m_ObjectHideFlags: 0

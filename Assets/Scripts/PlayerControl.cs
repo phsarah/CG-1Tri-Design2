@@ -26,6 +26,7 @@ public class PlayerControl : MonoBehaviour
             Camera.main.GetComponentInChildren<AudioSource>().mute = true;
             LevelManager.instance.SetTapeSpeed(0);
             AudioManager.instance.PlaySoundFail(gameObject);
+            SFXManager.instance.ShowDieParticles(gameObject);
             Destroy(gameObject);
         }
     }

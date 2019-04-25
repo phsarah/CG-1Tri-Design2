@@ -17,7 +17,19 @@ public class Hud{
     [Header("Other")]
     public GameObject panelHud;
 }
- public Hud hud;
+    [Serializable]
+    public class LevelCompletePanel
+    {
+
+        [Header("Text")]
+        public Text txtScore;
+
+
+        [Header("Other")]
+        public GameObject LcPanel;
+    }
+    public Hud hud;
+    public LevelCompletePanel levelCompletePanel;
 }
  
 

@@ -5781,7 +5781,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &968592279
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6634,6 +6634,9 @@ MonoBehaviour:
     hud:
       txtCoinCount: {fileID: 875686838}
       panelHud: {fileID: 205157721}
+    levelCompletePanel:
+      txtScore: {fileID: 1659139544}
+      LcPanel: {fileID: 968592278}
 --- !u!4 &1409730772
 Transform:
   m_ObjectHideFlags: 0
